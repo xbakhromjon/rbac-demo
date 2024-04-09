@@ -1,0 +1,5 @@
+JWT:
+{
+  "sub": "ID",
+  "type": "(user, system_user)"
+}
