@@ -1,6 +1,5 @@
 package com.xbakhromjon.rbacdemo;
 
-import com.xbakhromjon.rbacdemo.domain.ETokenType;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,4 +1,4 @@
-package com.xbakhromjon.rbacdemo.domain;
+package com.xbakhromjon.rbacdemo.domain.enumeration;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

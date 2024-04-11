@@ -1,4 +1,4 @@
-package com.xbakhromjon.rbacdemo.domain;
+package com.xbakhromjon.rbacdemo.domain.enumeration;
 
 public enum ETokenType {
     USER,

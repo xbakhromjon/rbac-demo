@@ -1,8 +1,7 @@
 package com.xbakhromjon.rbacdemo.adapters.in.web;
 
 import com.xbakhromjon.rbacdemo.common.security.PreAuthorize;
-import com.xbakhromjon.rbacdemo.domain.EPrivilege;
-import com.xbakhromjon.rbacdemo.domain.ETokenType;
+import com.xbakhromjon.rbacdemo.domain.enumeration.EPrivilege;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,8 +12,8 @@ import java.io.Serializable;
 @RestController
 @RequestMapping("/resources")
 public interface UserResourceController {
-    @PreAuthorize(privilege = EPrivilege.CREATE_RESOURCE)
 
+    @PreAuthorize(privilege = EPrivilege.CREATE_RESOURCE)
     ResponseEntity<Void> create(@RequestBody Object request);
 
     @PreAuthorize(privilege = EPrivilege.CREATE_RESOURCE)
