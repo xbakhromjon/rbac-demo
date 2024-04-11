@@ -1,4 +1,4 @@
-package com.xbakhromjon.rbacdemo.domain.model;
+package com.xbakhromjon.rbacdemo.domain;
 
 
 import java.util.UUID;

@@ -1,7 +1,7 @@
 package com.xbakhromjon.rbacdemo.common.security;
 
-import com.xbakhromjon.rbacdemo.domain.enumeration.EPrivilege;
-import com.xbakhromjon.rbacdemo.domain.enumeration.ETokenType;
+import com.xbakhromjon.rbacdemo.domain.EPrivilege;
+import com.xbakhromjon.rbacdemo.domain.ETokenType;
 
 public @interface PreAuthorize {
     ETokenType[] type() default {};
