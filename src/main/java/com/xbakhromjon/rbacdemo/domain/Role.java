@@ -1,21 +1,18 @@
 package com.xbakhromjon.rbacdemo.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.ArrayList;
-import java.util.List;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 public class Role {
     private Integer id;
     private String name;
-    private List<EPrivilege> privileges = new ArrayList<>();
+    private ArrayList<EPrivilege> privileges = new ArrayList<>();
 
     public void addPrivilege(EPrivilege privilege) {
         this.privileges.add(privilege);

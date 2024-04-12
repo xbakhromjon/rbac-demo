@@ -28,7 +28,7 @@ public class RoleController {
     }
 
     @PutMapping("/{id}/privileges")
-    public ResponseEntity<?> addPrivilege(
+    public ResponseEntity<?> privileges(
             @PathVariable Integer id,
             @RequestParam EPrivilege privilege, @RequestParam boolean add) {
         repository.addPrivilege(id, privilege, add);
